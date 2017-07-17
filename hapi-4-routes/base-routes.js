@@ -1,0 +1,36 @@
+var baseRoutes = {
+  register: function (server, options, next) {
+
+    // add “hello world” route
+    server.route([{
+      method: 'GET',
+      path: '/',
+      handler: function (request, reply) {
+        reply('Hello Future Studio!')
+      }
+    },{
+      method: ['POST', 'PUT'],
+      path: '/',
+      handler: function (request, reply) {
+        // process the request's payload ...
+        reply('Created a new instance.')
+      }
+    },{
+      method: 'GET',
+      path: '/page/{page}',
+      handler: function (request, reply) {
+        // process the request's payload ...
+        reply('You got page ' + +encodeURIComponent(request.params.page))
+      }
+    }])
+
+    next()
+  }
+}
+
+baseRoutes.register.attributes = {
+  name: 'base-routes',
+  version: '1.0.0'
+}
+
+module.exports = baseRoutes
