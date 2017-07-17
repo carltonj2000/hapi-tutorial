@@ -8,3 +8,4 @@ The tutorial code reference is on
  - hapi-2-.. [hapi plugins](https://futurestud.io/tutorials/hapi-extend-your-server-functionality-with-plugins)
  - hapi-3-.. [hapi plugins creation](https://futurestud.io/tutorials/hapi-create-your-own-custom-plugin)
  - hapi-4-.. [hapi routes](https://futurestud.io/tutorials/hapi-route-handling-and-drive-traffic-to-your-server)
+ - hapi-5-.. [hapi static files](https://futurestud.io/tutorials/hapi-how-to-serve-static-files-images-js-etc)
