@@ -1,0 +1,17 @@
+{
+  "name": "hapi-2-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-exe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^7.2.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.4.3"
+  }
+}
