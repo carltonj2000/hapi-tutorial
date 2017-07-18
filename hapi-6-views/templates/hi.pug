@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+  h1 Hi #{name}
+  p #{fruits}
+  p #{dog}
+  p= fruits
+
+  -
+    var list = ["Uno", "Dos", "Tres"]
+  each item in list
+    li= item
+
+  - for (var x = 0; x < 3; x++)
+    li= x
+
+  -
+  each item in fruits
+    li= item

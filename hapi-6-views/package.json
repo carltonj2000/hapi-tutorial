@@ -1,0 +1,24 @@
+{
+  "name": "hapi-4-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-exe.js",
+  "scripts": {
+    "test": "lab test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^7.2.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.4.3",
+    "inert": "^4.2.0",
+    "pug": "^2.0.0-rc.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "lab": "^14.1.1",
+    "request": "^2.81.0"
+  }
+}
